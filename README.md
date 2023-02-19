@@ -4,7 +4,7 @@
 
 1. Clone the repository
 2. Open command prompt 
-3. Go to folder in command prompt
+3. Go to hangman folder using command prompt
 4. `npm install node-modules`
 5. `npm install redux`
 6. `npm install @reduxjs/toolkit`
