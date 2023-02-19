@@ -1,0 +1,94 @@
+/* GLOBAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* HEADER COMPONENT*/
+.header {
+    background-color: #282c34;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+/* FIGURE COMPONENT */
+.figure {
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    margin: 20px auto 20px auto;
+    width: 300px;
+}
+
+/* WORD COMPONENT */
+.underscore-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.underscore-container span {
+    padding: 10px;
+    margin: 5px 10px 20px 10px;
+    font-size: 50px;
+}
+
+/* KEYBORAD COMPONENT */
+.letters-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.letters-container button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #282c34;
+    color: white;
+}
+
+.letters-container button:hover {
+    cursor: pointer;
+    background-color: #000000;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.letters-container button:disabled {
+    background-color: #7d7d7d;
+}
+
+/* HAGMAN COMPONENT */
+.play-again {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.play-again button {
+    margin: 20px auto 40px auto;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #282c34;
+    color: white;
+}
+
+.play-again button:hover {
+    cursor: pointer;
+    background-color: #000000;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
